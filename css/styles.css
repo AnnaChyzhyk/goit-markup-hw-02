@@ -1,0 +1,87 @@
+:root{
+    --primary-text-color:  #212121;
+    --secondary-text-color: #757575;
+    --acent-text-color: #2196F3;
+    --header-text-color: #FFFFFF;
+    --logo-text-color: #000000;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-style: normal;
+}
+/* Шапка макета */
+ul{
+    list-style: none;
+}
+.decoration{
+    text-decoration: none;
+}
+.current{
+    color: var(--acent-text-color); 
+}
+.logo{
+    color: var(--logo-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;  
+}
+.web{
+    color: var(--acent-text-color);
+}
+.site-nav .link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.auht-nav .nav{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--acent-text-color);
+}
+.auht-nav .nav:hover,
+.auht-nav .nav.nav:focus{
+    color: var(--acent-text-color);
+}
+/* блок герой */
+.main-title{
+    background-color: wheat;
+}
+.title-text{
+    color: var(--header-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-buton{
+    background-color: var(--acent-text-color);
+    color: var(--header-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2; 
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+}
+/* Блок наша особенность */
+.section-title{
+font-weight:700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
